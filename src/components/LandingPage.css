@@ -1,0 +1,162 @@
+/* Section Hero */
+.hero-section {
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Titre principal */
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Sous-texte */
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+/* Bouton principal */
+.hero-section .btn-primary {
+  background-color: #b8485b;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+  background-color: #a1374b;
+}
+
+  
+  
+/* Section principale */
+#courses {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin-top: -30px; /* Optionnel, pour recoller avec le Hero */
+}
+
+/* Bouton de navigation */
+#courses .btn-primary {
+  display: inline-block;
+  background-color: #b8485b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#courses .btn-primary:hover {
+  background-color: #a1374b;
+}
+
+/* Titre */
+#courses h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Cartes */
+#courses .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#courses .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+#courses .card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 2px solid #b8485b;
+}
+
+/* Texte des cartes */
+#courses .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+#courses .card-text {
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+#courses .btn-secondary:hover {
+  background-color: #922a40;
+}
+
+
+  /* Conteneur principal */
+#contact {
+  background-color: #f7a84d;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/* Titre du formulaire */
+#contact h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Champs de formulaire */
+.contact-form .form-control {
+  border: none;
+  border-radius: 20px;
+  background-color: #fde6cb;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  box-shadow: none;
+  margin-bottom: 20px;
+}
+
+/* Champ textarea */
+.contact-form .form-control[rows] {
+  resize: none;
+}
+
+/* Bouton */
+.contact-form .btn-primary {
+  background-color: #b8485b;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Effet hover du bouton */
+.contact-form .btn-primary:hover {
+  background-color: #a1374b;
+}
